@@ -6,9 +6,11 @@ class Coffee:
             raise ValueError("1")
         self._orders = []
 
+    @property
     def name(self):
         return self._name
 
+    @property
     def orders(self):
         return self._orders
 
