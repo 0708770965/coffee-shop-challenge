@@ -40,6 +40,7 @@ This project is a simple Python application modeling a coffee shop ordering syst
 
 - The project is designed for educational purposes to demonstrate basic Python OOP and validation.
 - The `debug.py` script includes commented-out lines to test error cases.
+- all above
 
 ## Author
 
