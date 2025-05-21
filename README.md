@@ -30,6 +30,27 @@ This project is a simple Python application modeling a coffee shop ordering syst
    pytest tests/
    ```
 
+### Running Tests with Virtual Environment
+
+To run tests using the installed pytest in the virtual environment, follow these steps:
+
+1. Activate the virtual environment:
+   ```bash
+   source .venv/bin/activate
+   ```
+
+2. Run pytest on the tests directory:
+   ```bash
+   pytest tests/
+   ```
+
+3. To deactivate the virtual environment after testing:
+   ```bash
+   deactivate
+   ```
+   pytest tests/
+   source .venv/bin/activate
+
 ## Error Cases
 
 - Creating an order with invalid customer or coffee types will raise a `TypeError`.
